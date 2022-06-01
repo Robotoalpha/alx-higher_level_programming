@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -11,6 +11,7 @@ nclude <stdlib.h>
 int check_cycle(listint_t *list)
 {
 	listint_t *turtle, *hare;
+
 	if (list == NULL || list->next == NULL)
 		return (0);
 
@@ -25,6 +26,6 @@ int check_cycle(listint_t *list)
 		turtle = turtle->next;
 		hare = hare->next->next;
 	}
+
 	return (0);
-}
 
