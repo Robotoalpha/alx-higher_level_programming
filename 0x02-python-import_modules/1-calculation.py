@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+#calculator_1.py
+
+if __name__ == "__main__":
+    
+    """does some Maths, and prints the result."""
+    from calculator_1 import sub, mul, div, add
+
+    a = 10
+    b = 5
+
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
+    print("{} + {} = {}".format(a, b, add(a, b)))
