@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 102-magic_calculation.py
-
+# Ouattara Alphonse <ujlog01@gmail.com>
 
 def magic_calculation(a, b):
     """Match bytecode provided by Holberton School."""
