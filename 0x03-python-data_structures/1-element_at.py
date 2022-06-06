@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#1-element_at.py
-#Ouattara Alphonse <ujlog01@gmail.com>
+# 1-element_at.py
+# Ouattara Alphonse <ujlog01@gmail.com>
 
 def element_at(my_list, idx):
   """retrive an element from a list"""
