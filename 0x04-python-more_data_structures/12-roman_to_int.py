@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # 12-roman_to_int.py
 # Brennan D Baraban <375@holbertonschool.com>
-
 def roman_to_int(roman_string):
     """Converts a roman numeral to an integer."""
     if (not isinstance(roman_string, str) or
@@ -17,7 +16,6 @@ def roman_to_int(roman_string):
             "M": 1000
     }
     num = 0
-
     for i in range(len(roman_string)):
         if roman_dict.get(roman_string[i], 0) == 0:
             return (0)
